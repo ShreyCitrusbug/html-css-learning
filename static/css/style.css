@@ -1,0 +1,301 @@
+.logo
+{
+    height: 23px;
+    width: 200px;
+    margin-top:20px;
+    margin-left: 400px;
+}
+.products
+{
+    margin-left: 620px;
+    margin-top: -25px;
+    color:#42526e;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.drpdown
+{
+    margin-left: 4px;
+    list-style-type: none;
+    margin-bottom: 2px;
+}
+.pro-drp
+{
+    font-family:  Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 80%;
+    font-weight: 500;
+}
+.pro-drp:hover
+{
+    background-color: rgb(188, 196, 203);
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+}
+.for-teams
+{
+    margin-left: 30px;
+    font-family:  Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 80%;
+    font-weight: 500;
+}
+.for-teams:hover
+{
+    background-color: rgb(188, 196, 203);
+    border-radius: 5px;
+    width: 110px;
+    height: 35px;
+}
+.support
+{
+    margin-left: 30px;
+    font-family:  Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 80%;
+    font-weight: 500;
+}
+.support:hover
+{
+    background-color: rgb(188, 196, 203);
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+}
+.trynow-btn
+{
+    background-color: #0052cc;
+    color: #f4f5f7;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: Charlie Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 700;
+    border-color: #0052cc;
+    cursor: pointer;
+}
+.trynow
+{
+    display: flex;
+    margin-left: 1120px;
+    margin-top: -28px;
+}
+.buynow-btn
+{
+    background-color: transparent;
+    color: #0052cc;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: Charlie Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+.myaccount
+{
+  font-family: Charlie Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+  color: #0052cc;
+  padding: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+#content
+{
+    background-image: url("hero_left_700x450px@2x.png");
+    display: -webkit-box;
+}
+.teamwork
+{
+    margin-left: 340px;
+    margin-top: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 55px;
+}
+.right-content
+{
+    float:right;
+}
+.withteam
+{
+    margin-left:50px;
+}
+.workflow
+{
+    font-size: 20px;
+    font-family:  Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    text-align: center;
+}
+.atlawork
+{
+    font-size: 36px;
+    margin-top: 100px;
+    font-weight: 500;
+    background-image:linear-gradient(180deg, #e6fcff, #ffffff);
+    padding: 50px;
+}
+.btn-blue
+{
+    background-color: #deebff;
+    color: #0065ff;
+    border-radius: 50px;
+    border: none;
+    padding: 40px;
+    width: 350px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-blue:focus
+{
+    background-color: #0065ff;
+    color: #deebff;
+}
+.center-btn
+{
+    margin:10px;
+}
+.jointeam
+{
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #253858;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+.customerstory
+{
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    color: #0052cc;
+    text-decoration: none;
+    margin-top: -2px;
+}   
+.social
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
+}
+.work-btn
+{
+    text-align: center;
+}
+.middle-content
+{
+    min-height: 80px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team-23
+{
+    margin-top: 50px;
+    padding: 32px 16px;
+
+}
+.lift-end
+{
+    background: linear-gradient(90deg, #C477D9 0.02%, #403294 20.33%, #091E42 100%);
+    color: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.lift-end img
+{
+    padding: 30px;
+    width: 127px;
+    height: 46px;
+    min-width: 127px;
+}
+.context
+{
+    font-family:Charlie Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    width: 400px;
+}
+.register
+{
+    color:#FFBDF0;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Charlie Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;;
+}
+.container
+{
+    padding-top: 50px;
+    display: flex;}
+.team-essential
+{
+    width: 350px;
+    height: 350px;
+    margin-left: 450px;
+    padding: 30px 10px 10px;
+}
+.team-essential p
+{
+    color: #008da6;
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 700;
+}
+.team-essential h2
+{
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+.asian-community
+{
+    text-align: center;
+    background-color: #ffebe5;
+}
+.asian-community img
+{
+    width: 700px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+.asian-community-text
+{
+    font-family: Charlie Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.asian-community p
+{
+    line-height: 24px;
+    font-family: Charlie Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 500;
+}
+.search-frm
+{
+    text-decoration: none;
+    color: #0065ff;
+    font-weight: 500;
+    font-family: Charlie Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    /* margin-left: -30px; */
+}
+.join-com
+{
+    text-decoration: none;
+    color: #0065ff;
+    font-weight: 500;
+    font-family: Charlie Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    padding-left: 150px; 
+}
+.asian-community p
+{
+    margin-top: 20px;
+}
+.container-2
+{
+    display: flex;
+}
+.container-2 .team-essential img
+{
+    width: 350px;
+    height: 470px;
+}
