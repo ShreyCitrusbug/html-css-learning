@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="static/css/style.css" />
     <link rel="icon" type="image/x-icon" href="static/images/safari-pinned-tab.svg" style="color: #59afe1"/>
+    <script src="static/js/text.js"></script>
   </head>
   <body>
     <header>
@@ -56,7 +57,7 @@
         <div class="lift-end">
           <img src="static/images/Team23_Official_white_Large.svg" alt="team '23"/>
           <div>
-            <p id="context">
+            <p class="context">
               Hear that? It’s team harmony. Learn how to tackle the impossible at Team ‘23, April 18–20.
             </p>
           </div>
@@ -144,48 +145,107 @@
       </div>
     </div>
     <div class="container-2">
-      <div class="team-essential">
+      <div class="work-life">
         <img src="static/images/Blog_360x265@2x.jpg" alt="">
+        <div class="work-life-text">  
+          Work Life
+        </div>
+        <p>Real-life advice, inspiration, and stories from the working world today.</p>
+        <h5>Read Out Blog</h5>
+      </div>
+      <div class="playbook">
+        <div class="team-playbook">
+          <img src="static/images/Team Playbook_360x265@2x.png" alt="">
+          <h3 class="work-life-text">  
+            Atlassian Team Playbook
+          </h3>
+          <p>Solve common team challenges with these group exercises.</p>
+          <h5>Check team health</h5>
+        </div>
+      </div>
+      <div class="agile-coach">
+        <div class="team-playbook">
+          <img src="static/images/Agile Coach_360x265@2x.png" alt="">
+          <h3 class="work-life-text">  
+            The Agile Coach
+          </h3>
+          <p>Atlassian's no-nonsense guide to agile development.</p>
+          <h5>Visit our resources</h5>
+        </div>
       </div>
     </div>
-    <script>
-      window.alert("welcome to web!!!")
-      const ele=document.getElementsByClassName('asian-community-text').length;
-      const elem=document.getElementsByClassName('asian-community-text');
-      elem[0].style.backgroundColor="#3DE";
-      document.getElementById('with-team').innerHTML = 'Hello World!!';
-      document.getElementById('with-team').innerHTML= ele;
-      const b=document.getElementsByName('try');
-      let arr=document.getElementsByTagName("*");
-      let tag=""
-      for (let i=0; i<arr.length;i++)
-      {
-        tag += arr[i].tagName+"<br/>";
-      }
-      document.getElementById('exp-res').innerHTML = tag;
-      b[0].style.backgroundColor="";
-      let a=10;
-      function f()
-      {
-        document.getElementById('with-team').innerHTML = "Hello!!!!"
-        if (true)
-        {
-          let b=23;
-          console.log(b);
-        }
-        console.log(a);
-        console.log(b);
-        console.log(a>>b);
-      }
-      f();
-      function myFun(p1,p2)
-      {
-        return p1+p2;
-      }
-      const person={name:"Sachin",age:42,lastName:"Tendulkar",runs:18000};
-      let x=myFun(4,5);
-      let text="The sum of two numbers:" + x;
-      document.getElementById("with-team").innerHTML = "God of Cricket is "+ person.name + person.lastName + " He has " + person.runs+ " International Runs.";
-    </script>
+    <div class="container">
+      <div class="team-essential">
+        <p>
+          EVENTS
+        </p>
+        <h2 id="exp-res">
+          Hear from today’s fearless builders and innovators
+        </h2>
+        <a href="">Learn More</a>
+      </div>
+      <div class="unleash">
+        <a> 
+        <img src="static/images/ADO-Homepage-Tile_360x360_2x.jpg" alt=""/></a>
+      </div>
+      <div class="atl-team-23">
+        <a> 
+        <img src="static/images/Team23_Event2x.png" alt=""/></a>
+      </div>
+    </div>
+    <div class="careers">
+      <div class="career-container">
+          <img class="img1" src="static/images/careers image footer right_540x450px@2x.png" alt="">
+        <div class="career-middle">
+          <p>CAREERS</p>
+          <h3>We can’t do it alone</h3>
+          <h4>We have an ambitious road ahead, and we’re looking for people to join our global team to help shape the future of Atlassian.</h4>
+          <a href="">
+            <button class="join-team-btn">
+              Join the team
+            </button>
+          </a>
+        </div>
+        <div>
+          <img class="img2" src="static/images/careers image footer right_540x450px@2x.png" alt="">
+        </div>
+      </div>
+    </div>
+    <footer class="footer-main">
+      <div class="row">
+        <div class="atls-logo">
+          <a href="">
+            <img src="static/images/logos-atlassian-logo-gradient-horizontal-neutral.svg" alt="">
+          </a>
+        </div>
+        <div class="products-footer">
+          <div class="inner-pro">
+            <ul>
+              <p>PRODUCTS</p>
+              <li class="li-pro">
+                <a href="">Jira Software</a><br/></li>
+              <li class="li-pro">
+                <a href="">Jira Align</a><br/>
+              </li>
+              <li class="li-pro">
+                <a href="">Jira Software Management</a><br/></li>
+              <li class="li-pro">
+                <a href="">Confluence</a><br>
+              </li class="li-pro">
+              <li class="li-pro">
+                <a href="">Trelio</a><br>
+              </li>
+              <li class="li-pro">
+                <a href="">Bitbucket</a><br>
+              </li>
+              <br>
+              <p class="view-pro">
+                <a href="">View all products</a>
+              </p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
