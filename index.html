@@ -41,14 +41,13 @@
       </div>
     </header>
     <div class="content">
-      <h1 class="teamwork">
+      <h1 class="teamwork" onclick="this.innerHTML='Oh!!!!'">
         It's possible
         <p id="with-team">with teamwork</p>
       </h1>
       <div class="right-content">
         <img
           src="static/images/hero_right_800x450px@1_5x.jpg"
-          style="width: 768px; height: 432px"
         />
       </div>
     </div>
@@ -74,7 +73,7 @@
     </div>
     <div class="work-btn">
       <a class="center-btn"
-        ><button class="btn-blue">Work Management</button></a
+        ><button class="btn-blue" onmousedown="down(this)" onmouseup="up(this)">Work Management</button></a
       >
       <a class="center-btn"
         ><button class="btn-blue">IT Service Management</button></a
@@ -179,9 +178,11 @@
         <p>
           EVENTS
         </p>
-        <h2 id="exp-res">
-          Hear from today’s fearless builders and innovators
-        </h2>
+        <div id="test">
+          <h2>
+            Hear from today’s fearless builders and innovators
+          </h2>
+        </div>
         <a href="">Learn More</a>
       </div>
       <div class="unleash">
@@ -201,7 +202,7 @@
           <h3>We can’t do it alone</h3>
           <h4>We have an ambitious road ahead, and we’re looking for people to join our global team to help shape the future of Atlassian.</h4>
           <a href="">
-            <button class="join-team-btn">
+            <button class="join-team-btn" onmouseover="over(this)" onmouseout="out(this)">
               Join the team
             </button>
           </a>
@@ -218,32 +219,154 @@
             <img src="static/images/logos-atlassian-logo-gradient-horizontal-neutral.svg" alt="">
           </a>
         </div>
-        <div class="products-footer">
-          <div class="inner-pro">
-            <ul>
-              <p>PRODUCTS</p>
-              <li class="li-pro">
-                <a href="">Jira Software</a><br/></li>
-              <li class="li-pro">
-                <a href="">Jira Align</a><br/>
-              </li>
-              <li class="li-pro">
-                <a href="">Jira Software Management</a><br/></li>
-              <li class="li-pro">
-                <a href="">Confluence</a><br>
-              </li class="li-pro">
-              <li class="li-pro">
-                <a href="">Trelio</a><br>
-              </li>
-              <li class="li-pro">
-                <a href="">Bitbucket</a><br>
-              </li>
-              <br>
-              <p class="view-pro">
-                <a href="">View all products</a>
-              </p>
-            </ul>
+        <div class="footer-container">
+          <div class="products-footer">
+            <div class="inner-pro">
+              <ul>
+                <p>PRODUCTS</p>
+                <li class="li-pro">
+                  <a href="">Jira Software</a><br/></li>
+                <li class="li-pro">
+                  <a href="">Jira Align</a><br/>
+                </li>
+                <li class="li-pro">
+                  <a href="">Jira Software Management</a><br/></li>
+                <li class="li-pro">
+                  <a href="">Confluence</a><br>
+                </li class="li-pro">
+                <li class="li-pro">
+                  <a href="">Trelio</a><br>
+                </li>
+                <li class="li-pro">
+                  <a href="">Bitbucket</a><br>
+                </li>
+                <br>
+                <p class="view-pro">
+                  <a href="">View all products</a>
+                </p>
+              </ul>
+            </div>
           </div>
+          <div class="products-footer">
+            <div class="inner-pro">
+              <ul>
+                <p>RESOURCES</p>
+                <li class="li-pro">
+                  <a href="">Technical Support</a><br/></li>
+                <li class="li-pro">
+                  <a href="">Purchasing & licensing</a><br/>
+                </li>
+                <li class="li-pro">
+                  <a href="">Atlassian Community</a><br/></li>
+                <li class="li-pro">
+                  <a href="">Knowledge base</a><br>
+                </li class="li-pro">
+                <li class="li-pro">
+                  <a href="">Marketplace</a><br>
+                </li>
+                <li class="li-pro">
+                  <a href="">My Account</a><br>
+                </li>
+                <br>
+                <p class="view-pro">
+                  <a href="">Create support ticket</a>
+                </p>
+              </ul>
+            </div>
+          </div>
+          <div class="products-footer">
+            <div class="inner-pro">
+              <ul>
+                <p>EXPAND & LEARN</p>
+                <li class="li-pro">
+                  <a href="">Partners</a><br/></li>
+                <li class="li-pro">
+                  <a href="">Training & Certification</a><br/>
+                </li>
+                <li class="li-pro">
+                  <a href="">Documentation</a><br/></li>
+                <li class="li-pro">
+                  <a href="">Developer Resources</a><br>
+                </li class="li-pro">
+                <li class="li-pro">
+                  <a href="">Enterprise services</a><br>
+                </li>
+                <br>
+                <p class="view-pro">
+                  <a href="">View all resources</a>
+                </p>
+              </ul>
+            </div>
+          </div>
+          <div class="products-footer">
+            <div class="inner-pro">
+              <ul>
+                <p>ABOUT ATLASSIAN</p>
+                <li class="li-pro">
+                  <a href="">Company</a><br/></li>
+                <li class="li-pro">
+                  <a href="">Careers</a><br/>
+                </li>
+                <li class="li-pro">
+                  <a href="">Events</a><br/></li>
+                <li class="li-pro">
+                  <a href="">Blogs</a><br>
+                </li class="li-pro">
+                <li class="li-pro">
+                  <a href="">Atlassian Foundation</a><br>
+                </li>
+                <li class="li-pro">
+                  <a href="">Investor Relations</a><br>
+                </li>
+                <li class="li-pro">
+                  <a href="">Trust & Security</a><br>
+                </li>
+                <br>
+                <p class="view-pro">
+                  <a href="">Contact us</a>
+                </p>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr/>
+      <div class="footer-social">
+        <img src="learning/static/images/icons8-earth-globe-30.png" alt="globe"/>
+        <div class="social-content">
+          <a href="">English
+          </a>
+          <img src="learning/static/images/down-arrow-svgrepo-com.svg" alt="arrow"/>
+        </div>
+        <div class="social-content">
+          <a href="">Privacy policy
+          </a>
+        </div>
+        <div class="social-content">
+          <a href="">Terms
+          </a>
+        </div>
+        <div class="social-content">
+          <a href="">Modern Slavery Act
+          </a>
+        </div>
+        <div class="social-content">
+          <a href="">Impressum
+          </a>
+        </div>
+        <div class="copyright">
+          <a href="">Copyright © 2023 Atlassian
+          </a>
+        </div>
+        <div class="social-icon">
+          <a href=""><img src="learning/static/images/facebook-badge.svg" alt="facebook">
+          </a>
+          <a href=""><img src="learning/static/images/facebook-badge.svg" alt="twitter">
+          </a>
+          <a href=""><img src="learning/static/images/facebook-badge.svg" alt="linkdin">
+          </a>
+          <a href=""><img src="learning/static/images/facebook-badge.svg" alt="youtube">
+          </a>
         </div>
       </div>
     </footer>

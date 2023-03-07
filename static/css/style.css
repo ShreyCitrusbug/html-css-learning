@@ -118,6 +118,11 @@
 {
     float:right;
 }
+.right-content img
+{
+    width: 768px; 
+    height: 432px;
+}
 #with-team
 {
     margin-left:50px;
@@ -416,14 +421,14 @@
 }
 .career-container p
 {
-    margin-left: 640px;
+    margin-left: 830px;
     width: 550px;
     color:#008da6;
     font-weight: 500;
 }
 .career-container h3
 {
-    margin-left: 640px;
+    margin-left: 830px;
     width: 550px;
     font-size: 48px;
     line-height: 56px;
@@ -434,7 +439,7 @@
 .career-container h4
 {
     width: 450px;
-    margin-left: 725px;
+    margin-left: 880px;
     color: #42526e;
     font-size: 20px;
     letter-spacing: .3px;
@@ -456,7 +461,7 @@
     border-color: #0052cc;
     cursor: pointer;
     border: none;
-    margin-left:-700px;
+    margin-left:-585px;
 }
 .img1
 {
@@ -480,7 +485,7 @@
 {
     background-color: #f4f5f7;
     display: block;
-    height: 400px;
+    height: 450px;
 }
 .atls-logo
 {
@@ -562,4 +567,78 @@
     margin-left: 250px;
     width: 300px;
     margin-top: -80px;
+}
+.footer-container
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-social
+{
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+.social-content
+{
+    padding: 15px;
+}
+/* .footer-social img
+{
+    padding: 18px;
+}  */
+.social-content a
+{
+    text-decoration: none;
+    color: #42526e;
+    font-size: 16px;
+    font-family: Charlie Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.social-content a:hover
+{
+    text-decoration: underline;
+}
+.copyright
+{
+    padding: 15px;
+    margin-left: 25px;
+}
+.copyright a
+{
+    text-decoration: none;
+    color: #42526e;
+    font-size: 16px;
+    font-family: Charlie Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.copyright a:hover
+{
+    text-decoration: underline;
+}
+.social-icon
+{
+    margin-left:300px;
+    padding: 15px;
+    display: flex;
+}
+.social-icon a
+{
+    text-decoration: none;
+    color: #42526e;
+    font-size: 16px;
+    font-family: Charlie Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.social-icon a:hover
+{
+    text-decoration: underline;
 }
