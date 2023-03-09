@@ -18,3 +18,14 @@ JavaScript Learning
 
  - Next-Day Tasks
      - jQuery Learning
+
+Date 09/03/2023
+
+jQuery Learning
+
+ - Tasks
+     - jQuery Events and DOM 
+     - Completed Task-Form Validation Using Javascript
+
+ - Next-Day Tasks
+     - jQuery Learning

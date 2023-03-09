@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Form Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- <link rel="stylesheet" href="learning/static/css/style.css"> -->
+        <style>
+            .form-row
+            {
+                margin-left: 675px;
+                padding: 10px 100px;
+                width: fit-content;
+                border: 2px solid rgb(147, 139, 127);
+                border-radius: 10px;
+                background-color: aliceblue;
+            }
+            input
+            {
+                width: 320px;
+                height: 30px;
+                border-radius: 5px;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            textarea
+            {
+                width: 320px;
+                height: 100px;
+                border-radius: 5px;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                border: 2px solid black;
+            }
+            .radio
+            {
+                width: auto;
+                height: auto;
+            }
+            .btn
+            {
+                width: 60px;
+                height: 30px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            table,tr,td
+            {
+                border-collapse: collapse;
+                border: 1px solid;
+                padding: 20px;
+            }
+            .edit-btn
+            {
+                width: 60px;
+                height: 30px;
+                border-radius: 5px;
+                margin-left: 5px;
+            }
+            .radio
+            {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                margin: 7px 0px;
+            }
+            p
+            {
+                color: red;
+                margin-top: -5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form-row">
+            <h3><center>Basic Information Form</center></h3>
+            <form method="get" name="form" novalidate action="/learning/templates/form.html">
+                <label>First Name:<br/></label><br/>
+                <input type="text" id="fname" placeholder="*Enter Your First Name"><br/><br/>
+                <p id="error"></p>
+                <label>Last Name:<br/></label><br/>
+                <input type="text" placeholder="Enter Your Last Name"><br/><br/>
+                <label>Email-Id:<br/></label><br/>
+                <input type="email" id="email"  placeholder="*Enter Your Email-Id"><br/><br/>
+                <p id="emailerror"></p>
+                <label>Phone-No:<br/></label><br/>
+                <input type="number" id="phone" placeholder="*Enter Your Number"><br/><br/>
+                <p id="phoneerror"></p>
+                <div class="radio">
+                <input type="radio" class="radio" name="gender" value="male" checked>
+                <label for="male">Male<br/></label><br/><br/>
+                <input class="radio" type="radio" name="gender" value="female">
+                <label for="female">Female<br/></label><br/><br/></div>
+                <label>Password:<br/></label><br/>
+                <input type="password" id="password1" placeholder="*Enter Your Password"><br/><br/>
+                <p id="pass1error"></p>
+                <label>Confirm Password:<br/></label><br/>
+                <input type="password" id="password2" placeholder="*Re-Enter Your Password"><br/><br/>
+                <p id="pass2error"></p>
+                <label>Address:<br/></label><br/>
+                <textarea name="textarea" name="address" id="textarea" placeholder="Enter Your Address"></textarea><br/><br/>
+                <button id="bt" class="btn" type="submit" value="submit" onclick="return validate()">Submit</button>
+            </form>
+        </div>
+        <hr>
+        <center>
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Phone No</td>
+                    <td>Edit Data</td>
+                </tr>
+                <tr>
+                    <td id="here"></td>
+                    <td></td>
+                    <td></td>
+                    <td><button class="edit-btn">Update</button><button class="edit-btn">Delete</button></td>
+                </tr>
+            </table>
+        </center>
+        <script src="../static/js/validation.js"></script>
+    </body>
+</html>
