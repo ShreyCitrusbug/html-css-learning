@@ -29,3 +29,20 @@ jQuery Learning
 
  - Next-Day Tasks
      - jQuery Learning
+
+Date 09/03/2023
+
+jQuery Learning
+
+ - Tasks
+     - Form Validation Using Javascript and jQuery
+     - GIT Learning - Basic GIT commands like --config , how to open GIT in default Editor
+     - carriage return line breaks
+     - git init, Basic workflow of GIT
+     - How to Create directory,Rename,Update,Remove files form repository.
+     - Adding files in repository,Ignoring files,Short status.
+     - commit files with comments. 
+     - Difference of data in staging files and working directory files.
+
+ - Next-Day Tasks
+     - Python Learning

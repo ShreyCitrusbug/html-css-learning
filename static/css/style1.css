@@ -1,0 +1,84 @@
+.form-row
+{
+    margin-left: 675px;
+    padding: 10px 100px;
+    width: fit-content;
+    border: 2px solid rgb(147, 139, 127);
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+input
+{
+    width: 320px;
+    height: 30px;
+    border-radius: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+textarea
+{
+    width: 320px;
+    height: 100px;
+    border-radius: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+}
+.radio
+{
+    width: auto;
+    height: auto;
+}
+.btn
+{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+table,tr,td,th
+{
+    border-collapse: collapse;
+    border: 1px solid;
+    padding: 20px;
+}
+.edit-btn
+{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.radio
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 7px 0px;
+}
+p
+{
+    color: red;
+    margin-top: -5px;
+}
+h2
+{
+    text-align: center;
+}
+.add-btn
+{
+    width: 30px;
+    height: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.remove-btn
+{
+    width: 30px;
+    height: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.submit-btn
+{
+    margin-top: 20px;
+    padding: 5px 20px;
+}

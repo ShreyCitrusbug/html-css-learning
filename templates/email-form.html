@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Email Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../static/css/style1.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="../static/js/jQuery.min.js"></script>
+        <script src="../static/js/validation.js"></script>
+    </head>
+    <body>
+        <form action="" novalidate onsubmit="return email_validation()">
+            <div class="form-row">
+                <h2>Email Form</h2>
+                <div class="email-field">
+                    <label>Email-Id:<br/></label><br/>
+                    <input type="email" id="email" name="mail" placeholder="*Enter Your Email-Id">
+                    <button class="add-btn">+</button>
+                    <br/>
+                    <p id="email-error"></p>
+                </div>
+            </div>
+            <center>
+            <button type="submit" value="submit" class="submit-btn">Submit</button></center>
+        </form>
+    </body>
+</html>
